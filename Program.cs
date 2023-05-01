@@ -26,11 +26,15 @@ namespace Day3A_Assignment
             //obj2.honk();
             //Console.ReadKey();
 
-            Encapsulation obj = new Encapsulation();
-            obj.Name = "Teeeeeeeeeeeeeeeeeeeeeeeennnnnnnnnnnaaaaaaaaaaaaaa";
-            obj.RollNo = 34;
-            Console.WriteLine(obj.RollNo);
-            Console.WriteLine(obj.Name);
+            //Encapsulation obj = new Encapsulation();
+            //obj.Name = "Teeeeeeeeeeeeeeeeeeeeeeeennnnnnnnnnnaaaaaaaaaaaaaa";
+            //obj.RollNo = 34;
+            //Console.WriteLine(obj.RollNo);
+            //Console.WriteLine(obj.Name);
+
+            Lion obj = new Lion();
+            obj.AnimalSound();
+            obj.Bird();
         }
     }
 }
