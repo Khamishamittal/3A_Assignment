@@ -32,9 +32,11 @@ namespace Day3A_Assignment
             //Console.WriteLine(obj.RollNo);
             //Console.WriteLine(obj.Name);
 
-            Lion obj = new Lion();
-            obj.AnimalSound();
-            obj.Bird();
+            //Lion obj = new Lion();
+            //obj.AnimalSound();
+            //obj.Bird();
+            Pig obj = new Pig();
+            obj.animalSound();
         }
     }
 }
