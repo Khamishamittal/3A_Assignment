@@ -35,8 +35,21 @@ namespace Day3A_Assignment
             //Lion obj = new Lion();
             //obj.AnimalSound();
             //obj.Bird();
-            Pig obj = new Pig();
-            obj.animalSound();
+            //Pig obj = new Pig();
+            //obj.animalSound();
+
+            Derived obj = new Derived();
+            obj.Animal2();
+            obj.Animal(); 
+           
+
+            Derived2 obj2 = new Derived2();
+            obj2.Animal3();
+            obj2.Animal2();
+            obj.Animal();
+            
+
+
         }
     }
 }
